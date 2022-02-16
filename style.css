@@ -16,7 +16,7 @@ body{
 
 header{
     width: 100%;
-    background: black;
+    background: #000000;
     display: flex;
 }
 .header-logo{
@@ -29,7 +29,7 @@ header{
 }
 
 nav{
-    margin-top: 56px;
+    margin-top: 62px;
     margin-left: 29%;
 }
 .topnav a{
@@ -38,6 +38,7 @@ nav{
     padding: 12px 16px;
     font-size: 14px;
     font-weight: bold;
+    position: relative;
 }
 
 .topnav a:hover{
