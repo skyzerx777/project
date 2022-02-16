@@ -143,7 +143,7 @@ main .main-about{
     border-radius: 50%;
     margin: 20px auto;
 }
-.team-cards{
+/* .team-cards{
     display: flex;
 }
 .card{
@@ -159,7 +159,7 @@ main .main-about{
 }
 .about-position{
     font-size: 14px;
-}
+} */
 
 .services-cards{
     text-align: center;
