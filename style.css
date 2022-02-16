@@ -24,7 +24,6 @@ header{
     color: white;
     font-weight: 800;
     font-size: 24px;
-    cursor: pointer;
     margin-top: 56px;
     margin-left: 12%;
 }
@@ -128,14 +127,7 @@ main .main-about{
     font-size: 44px;
     padding-bottom: 30px;
 }
-/* .line{
-    width: 100px;
-    height: 3px;
-    background: #fcac45;
-    position: relative;
-    left: 45.5%;
-    margin-bottom: 85px;
-} */
+
 .photo{
     background: #d7d7d7;
     width: 125px;
@@ -143,23 +135,6 @@ main .main-about{
     border-radius: 50%;
     margin: 20px auto;
 }
-/* .team-cards{
-    display: flex;
-}
-.card{
-    margin: 0 40px;
-}
-.name{
-    font-size: 20px;
-    margin-bottom: 7px;
-}
-.position{
-    font-size: 16px;
-    margin-bottom: 35px;
-}
-.about-position{
-    font-size: 14px;
-} */
 
 .services-cards{
     text-align: center;
