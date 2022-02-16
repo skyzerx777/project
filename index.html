@@ -15,13 +15,12 @@
         <section class="header-logo">*названиеКомпании</section>
         <nav>
             <section class="topnav" id="myTopnav">
-                <a href="#aboutUs">Главная</a>
-                <a href="#">О нас</a>
-                <a href="#">Услуги</a>
-                <a href="#">Портфолио</a>
-                <a href="#">Отзывы</a>
-                <a href="#">Контакты</a>
-                <a href="#contactUs" id="menu" class="icon">&#9776</a>
+                <a href="#aboutUs">О нас</a>
+                <a href="#ourServices">Услуги</a>
+                <a href="#ourPortfolio">Портфолио</a>
+                <a href="#reviewsUs">Отзывы</a>
+                <a href="#contactUs">Контакты</a>
+                <a href="#" id="menu" class="icon">&#9776</a>
             </section>
         </nav>
     </header>
@@ -57,32 +56,32 @@
                         <section class="photo">
                             <h4 class="name">Евгений Гребенщиков</h4>
                             <p class="position">Дизайнер</p>
-                            <p class="about-position">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                                вэб-дизайне.</p>
+                            <p class="about-position"><i>Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                                    вэб-дизайне.</i></p>
                         </section>
                     </section>
                     <section class="card">
                         <section class="photo">
                             <h4 class="name">Евгений Гребенщиков</h4>
                             <p class="position">Менеджер</p>
-                            <p class="about-position">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                                вэб-дизайне.</p>
+                            <p class="about-position"><i>Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                                    вэб-дизайне.</i></p>
                         </section>
                     </section>
                     <section class="card">
                         <section class="photo">
                             <h4 class="name">Евгений Гребенщиков</h4>
                             <p class="position">Копирайтер</p>
-                            <p class="about-position">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                                вэб-дизайне.</p>
+                            <p class="about-position"><i>Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                                    вэб-дизайне.</i></p>
                         </section>
                     </section>
                     <section class="card">
                         <section class="photo">
                             <h4 class="name">Евгений Гребенщиков</h4>
                             <p class="position">СЕО</p>
-                            <p class="about-position">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                                вэб-дизайне.</p>
+                            <p class="about-position"><i>Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                                    вэб-дизайне.</i></p>
                         </section>
                     </section>
                 </section>
@@ -91,7 +90,7 @@
 
         <section class="main-services">
             <section class="wrapper">
-                <h1>Наши услуги</h1>
+                <h1><a name="ourServices">Наши услуги</a></h1>
                 <p><i>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
                         стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
                         печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
@@ -142,7 +141,7 @@
 
         <section class="wrapper">
             <section class="main-work">
-                <h1>Взгляните на наши работы</h1>
+                <h1><a name="ourPortfolio">Взгляните на наши работы</a></h1>
                 <p><i>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
                         стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
                         печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
@@ -173,7 +172,7 @@
 
         <section class="main-reviews">
             <section class="wrapper">
-                <h1>Отзывы наших клиентов</h1>
+                <h1><a name="reviewsUs">Отзывы наших клиентов</a></h1>
                 <p class="reviews">Всего за 4 месяца сотрудничества наш, не самый лучший в сети проект, был выведен в
                     ТОП-1 по многим
                     запросам. Ребята провели тщательный аудит, не побоялись указать на ошибки обслуживания клиентов,
@@ -188,17 +187,18 @@
                     <a name="contactUs">
                         <h1>Контактная форма</h1>
                     </a>
-                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                    <p class="mailForm">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
+                        Ipsum является
                         стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
                         печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
-                        образцов.</p>
+                        образцов.</p><br />
                     <form action="#" name="newform" method="post">
                         <section class="form-inputs">
-                            <p>Имя<span class="red">*</span><input type="text"></p>
-                            <p>E-mail<span class="red">*</span><input type="text"></p>
+                            <p>Имя<span class="red">*</span><input type="text" required></p>
+                            <p">E-mail<span class="red">*</span><input type="email" required></p>
                         </section>
                         <p>Сообщение<span class="red">*</span></p>
-                        <textarea name="text"></textarea>
+                        <textarea name="text" required></textarea>
                         <section class="button-block">
                             <input type="submit" value="Отправить">
                         </section>
