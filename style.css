@@ -300,11 +300,7 @@ footer{
 }
 
 @media screen and (max-width: 1570px){
-    .services-cards{
-        display: grid;
-        grid-template-columns: auto;
-        grid-row-gap: 100px;
-    }
+    
 }
 @media screen and (max-width: 1390px){
     .about-right h1{
@@ -321,6 +317,11 @@ footer{
     }
     .about-right li{
         text-align: left;
+    }
+    .services-cards{
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 100px;
     }
 }
 
