@@ -299,9 +299,6 @@ footer{
     opacity: 0.6;
 }
 
-@media screen and (max-width: 1570px){
-    
-}
 @media screen and (max-width: 1390px){
     .about-right h1{
         font-size: 20px;
